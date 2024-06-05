@@ -15,7 +15,7 @@ RUN npm install
 COPY . .
 
 # Port yang akan digunakan oleh aplikasi Anda
-EXPOSE 3000
+EXPOSE 8080
 
 # Perintah yang akan dijalankan saat container berjalan
 CMD ["npm", "start"]
